@@ -1,3 +1,10 @@
+/* ----- Header / Nav ----- */
+#static-header {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+}
+
 #btn-menu {
     background-color: #2f4523;
     display: flex;
@@ -5,4 +12,8 @@
 
 mat-icon {
     color: #f3edec;
+}
+
+.mat-menu-content {
+    background-color: #2f4523;
 }
