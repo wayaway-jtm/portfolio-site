@@ -17,3 +17,9 @@ mat-icon {
 .mat-menu-content {
     background-color: #2f4523;
 }
+
+a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

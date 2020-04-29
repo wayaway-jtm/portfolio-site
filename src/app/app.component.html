@@ -3,18 +3,22 @@
         <mat-icon>menu</mat-icon>
     </button>
     <mat-menu #menu="matMenu" class="menuPanel">
-        <button mat-menu-item>
-            <mat-icon>dialpad</mat-icon>
-            <span>Redial</span>
-        </button>
-        <button mat-menu-item disabled>
-            <mat-icon>voicemail</mat-icon>
-            <span>Check voice mail</span>
-        </button>
-        <button mat-menu-item>
-            <mat-icon>notifications_off</mat-icon>
-            <span>Disable alerts</span>
-        </button>
+        <a mat-menu-item [routerLink]="['home']" routerLinkActive="router-link-active">
+            <mat-icon>home</mat-icon>
+            <span>Home</span>
+        </a>
+        <a mat-menu-item [routerLink]="['projects']" routerLinkActive="router-link-active">
+            <mat-icon>code</mat-icon>
+            <span>Projects</span>
+        </a>
+        <a mat-menu-item [routerLink]="['contact']" routerLinkActive="router-link-active">
+            <mat-icon>contact_support</mat-icon>
+            <span>Contact</span>
+        </a>
+        <a mat-menu-item [routerLink]="['about']" routerLinkActive="router-link-active">
+            <mat-icon>account_circle</mat-icon>
+            <span>About</span>
+        </a>
     </mat-menu>
 </div>
 <router-outlet></router-outlet>
