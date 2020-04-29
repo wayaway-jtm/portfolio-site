@@ -1,17 +1,18 @@
 /* ----- Header / Nav ----- */
 #static-header {
-    position: static;
+    position: sticky;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: flex-end;
 }
 
 #btn-menu {
     background-color: #2f4523;
-    display: flex;
-}
-
-mat-icon {
     color: #f3edec;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    display: flex;
 }
 
 .mat-menu-content {
