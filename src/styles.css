@@ -10,6 +10,7 @@ black: #151319
 
 * {
     box-sizing: border-box;
+    font-family: 'Exo 2', "Helvetica Neue", sans-serif;
 }
 
 html,
@@ -21,7 +22,6 @@ body {
     background-color: #151319;
     color: #f3edec;
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 button {
