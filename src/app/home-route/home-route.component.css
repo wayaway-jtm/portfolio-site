@@ -1,0 +1,16 @@
+/* ~~~~~ Headshot area ~~~~~ */
+#headshot-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headshot-div p {
+    margin: 2vh 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#headshot {
+    max-width: 30vw;
+}
