@@ -1,3 +1,10 @@
+#content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5vw;
+}
+
 /* ~~~~~ Headshot area ~~~~~ */
 #headshot-div {
     display: flex;
@@ -13,4 +20,9 @@
 
 #headshot {
     max-width: 30vw;
+}
+
+/* ~~~~~ About Me area ~~~~~ */
+#about-div h2 {
+    text-align: center;
 }
