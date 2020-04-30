@@ -16,14 +16,6 @@
 }
 
 /* ~~~~~ Information areas ~~~~~ */
-div h2, div h1 {
-    text-align: center;
-}
-
-div h1 {
-    font-weight: bold;
-}
-
 div h2 {
     margin: 1rem 0;
 }

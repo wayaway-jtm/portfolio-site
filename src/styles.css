@@ -35,6 +35,14 @@ p.last {
     margin: 0;
 }
 
+h1 {
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
 /* ~~~~~ Routes ~~~~~ */
 .route-content-wrapper {
     display: flex;
