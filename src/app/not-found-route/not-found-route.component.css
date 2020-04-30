@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    display: flex;
+    color: #f3edec;
+    text-align: center;
+    text-decoration: none;
+}
+
+a span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
