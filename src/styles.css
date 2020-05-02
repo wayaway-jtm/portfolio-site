@@ -35,6 +35,17 @@ p.last {
     margin: 0;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    display: flex;
+    color: #f3edec;
+    text-align: center;
+    text-decoration: none;
+}
+
 /* ~~~~~ Routes ~~~~~ */
 .route-content-wrapper {
     display: flex;
