@@ -15,7 +15,7 @@
     max-width: 30vw;
 }
 
-/* ~~~~~ Information areas ~~~~~ */
+/* ~~~~~ Skills area ~~~~~ */
 div h2 {
     margin: 1rem 0;
 }
@@ -33,5 +33,13 @@ li {
 .col-lists {
     display: flex;
     justify-content: space-around;
-    /* padding: 0 10%; */
+}
+
+.training-name {
+    margin: 0;
+}
+
+.training-info {
+    font-size: 0.75rem;
+    padding-left: 2rem;
 }
