@@ -10,8 +10,8 @@
                         </span>
                         <span class="contact-label">Email</span>
                     </a>
-                    <button (click)="toggleShowEmail()">
-                        <span>(Show email address )</span>
+                    <button (click)="toggleShow('email')">
+                        <span>(Show)</span>
                     </button>
                 </p>
                 <p class="contact-p" *ngIf="showEmail" id="email-address">
@@ -26,6 +26,12 @@
                         </span>
                         <span class="contact-label">Phone</span>
                     </a>
+                    <button (click)="toggleShow('phone')">
+                        <span>(Show)</span>
+                    </button>
+                </p>
+                <p class="contact-p" *ngIf="showPhoneNum" id="phone-num">
+                    <span>616-901-8363</span>
                 </p>
             </section>
             <section id="github-contact">
