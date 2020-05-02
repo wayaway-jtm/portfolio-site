@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-contact-route',
-  templateUrl: './contact-route.component.html',
-  styleUrls: ['./contact-route.component.css']
+    selector: 'app-contact-route',
+    templateUrl: './contact-route.component.html',
+    styleUrls: ['./contact-route.component.css']
 })
 export class ContactRouteComponent implements OnInit {
 
-  constructor() { }
+    public showEmail: boolean = false;
+    constructor() { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
+
+    toggleShowEmail() {
+        this.showEmail = !this.showEmail;
+    }
 
 }
