@@ -1,1 +1,69 @@
-<p>contact-route works!</p>
+<div class="route-content-wrapper">
+    <div class="card-holder">
+        <h1>Contact</h1>
+        <div class="card">
+            <section id="email-contact">
+                <p class="contact-p">
+                    <a href="mailto:wayaway.jtm@gmail.com">
+                        <span class="big-icon">
+                            <mat-icon [inline]="true">contact_mail</mat-icon>
+                        </span>
+                        <span class="contact-label">Email</span>
+                    </a>
+                    <button (click)="toggleShow('email')">
+                        <span>(Show)</span>
+                    </button>
+                </p>
+                <p class="contact-p" *ngIf="showEmail" id="email-address">
+                    <span>wayaway.jtm@gmail.com</span>
+                </p>
+            </section>
+            <section id="phone-contact">
+                <p class="contact-p">
+                    <a href="tel:6169018363">
+                        <span class="big-icon">
+                            <mat-icon [inline]="true">call</mat-icon>
+                        </span>
+                        <span class="contact-label">Phone</span>
+                    </a>
+                    <button (click)="toggleShow('phone')">
+                        <span>(Show)</span>
+                    </button>
+                </p>
+                <p class="contact-p" *ngIf="showPhoneNum" id="phone-num">
+                    <span>616-901-8363</span>
+                </p>
+            </section>
+            <section id="github-contact">
+                <p class="contact-p">
+                    <a href="https://github.com/wayaway-jtm/" target=_blank>
+                        <span class="big-icon">
+                            <img src="../../assets/github-mark/GitHub-Mark-Light-32px.png" alt="GitHub logo - white">
+                        </span>
+                        <span class="contact-label">GitHub</span>
+                    </a>
+                </p>
+            </section>
+            <section id="linkedin-contact">
+                <p class="contact-p">
+                    <a href="https://www.linkedin.com/in/john-mccarthy-wayaway/" target=_blank>
+                        <span class="big-icon">
+                            <img src="../../assets/linkedin-logo/linkedin-32sq.png" alt="GitHub logo - white">
+                        </span>
+                        <span class="contact-label">LinkedIn</span>
+                    </a>
+                </p>
+            </section>
+            <section id="resume-contact">
+                <p class="contact-p">
+                    <a href="../../assets/John_McCarthy_Resume.pdf" target=_blank>
+                        <span class="big-icon">
+                            <mat-icon [inline]="true">description</mat-icon>
+                        </span>
+                        <span class="contact-label">Resume</span>
+                    </a>
+                </p>
+            </section>
+        </div>
+    </div>
+</div>
