@@ -11,6 +11,7 @@ import { AboutRouteComponent } from './about-route/about-route.component';
 import { ContactRouteComponent } from './contact-route/contact-route.component';
 import { ProjectsRouteComponent } from './projects-route/projects-route.component';
 import { NotFoundRouteComponent } from './not-found-route/not-found-route.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NotFoundRouteComponent } from './not-found-route/not-found-route.compon
     AboutRouteComponent,
     ContactRouteComponent,
     ProjectsRouteComponent,
-    NotFoundRouteComponent
+    NotFoundRouteComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
