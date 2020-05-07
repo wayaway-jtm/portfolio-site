@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProjectInfoService } from '../project-info.service';
+import { ProjectClass } from '../Classes/project';
 
 @Component({
   selector: 'app-projects-route',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsRouteComponent implements OnInit {
 
-  constructor() { }
+    public projects: ProjectClass[] = [];
+  constructor(private projectInfoService: ProjectInfoService) {
+      this.projects = projectInfoService.getProjectData();
+  }
 
   ngOnInit(): void {
   }

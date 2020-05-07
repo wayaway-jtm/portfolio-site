@@ -1,3 +1,19 @@
 <div class="route-content-wrapper">
-
+    <ul>
+        <li *ngFor="let project of projects">
+            <p>{{project.id}}</p>
+            <h2>{{project.title}}</h2>
+            <p>{{project.gen_overview}}</p>
+            <p>{{project.tech_overview}}</p>
+            <ul>
+                <li *ngFor="let tech of project.tech_used">
+                    <img src="../../assets/projects/tech-icons/{{tech.iconFile}}" alt="">
+                    <p>{{tech.name}}</p>
+                    <a href="{{tech.source}}">Source</a>
+                </li>
+            </ul>
+            <p><a href="{{project.gh_link}}" target="_blank">GitHub</a></p>
+            <p><a href="{{project.site_link}}" target="_blank">Site</a></p>
+        </li>
+    </ul>
 </div>
