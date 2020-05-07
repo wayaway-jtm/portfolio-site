@@ -36,7 +36,7 @@
         "techOverview": "",
         "techUsed": [
             {
-                "name": "Angular 9",
+                "name": "Angular 8",
                 "source": "https://angular.io/",
                 "iconFile": "angular.svg"
             },
@@ -44,11 +44,6 @@
                 "name": "The Movie Database",
                 "source": "https://www.themoviedb.org/",
                 "iconFile": "tmdb.svg"
-            },
-            {
-                "name": "Node JS",
-                "source": "https://nodejs.org/",
-                "iconFile": "node-js.png"
             },
             {
                 "name": "Angular Material",
@@ -62,7 +57,7 @@
             }
         ],
         "githubURL": "https://github.com/wayaway-jtm/angular-movie-project",
-        "siteURL": "https://wayaway-jtm.github.io/angular-movie-project/"
+        "siteURL": "https://urkernel.netlify.app/"
     },
     {
         "id": "random-pet-display",
