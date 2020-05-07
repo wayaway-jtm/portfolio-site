@@ -1,5 +1,6 @@
 [
     {
+        "id": "lead-free-gr",
         "title": "Lead-free Grand Rapids",
         "genOverview": "The final project of my Grand Circus bootcamp, this was a collaboration with Grand Rapids city officials. Using data they provided, we were able to create a map of potential lead poisoning risks in Grand Rapids. In addition to a heatmap of lead risks, this website also provides some education on lead poisoning as well as links to official city resources.",
         "techOverview": "",
@@ -25,11 +26,11 @@
                 "iconFile": "gr-city-logo.png"
             }
         ],
-        "imgFile": "lead-free-gr-sample.png",
         "githubURL": "https://github.com/Spencer-T-Morris/Lead",
         "siteURL": "https://lead-free-grandrapids.netlify.app/"
     },
     {
+        "id": "urkernel",
         "title": "Urkernel",
         "genOverview": "The final project of my Grand Circus bootcamp, this was a collaboration with Grand Rapids city officials. Using data they provided, we were able to create a map of potential lead poisoning risks in Grand Rapids. In addition to a heatmap of lead risks, this website also provides some education on lead poisoning as well as links to official city resources.",
         "techOverview": "",
@@ -60,11 +61,11 @@
                 "iconFile": "angular-forms.svg"
             }
         ],
-        "imgFile": "urkernel-logo.png",
         "githubURL": "https://github.com/wayaway-jtm/angular-movie-project",
         "siteURL": "https://wayaway-jtm.github.io/angular-movie-project/"
     },
     {
+        "id": "random-pet-display",
         "title": "Random Pet Display",
         "genOverview": "A small site I made because sometimes you just want to see cute animals.",
         "techOverview": "I used some Javascript (ES6) to call a couple of APIs. Display and formatting were HTML 5 & CSS",
@@ -85,7 +86,6 @@
                 "iconFile": "DogIcon.png"
             }
         ],
-        "imgFile": "random-pet-icon.png",
         "githubURL": "https://github.com/wayaway-jtm/RandomPetDisplay",
         "siteURL": "https://wayaway-jtm.github.io/RandomPetDisplay/"
     }
