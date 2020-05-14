@@ -1,1 +1,72 @@
-<p>projects-route works!</p>
+<div class="route-content-wrapper">
+    <mat-card *ngFor="let project of projects">
+        <mat-card-header>
+            <img mat-card-avatar src="../../assets/projects/project-icons/{{project.id}}.png" class="card-avatar">
+            <mat-card-title>{{project.title}}</mat-card-title>
+            <mat-card-subtitle>{{project.id}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../../assets/projects/project-samples/mobile/{{project.id}}.png" alt="">
+        <mat-card-content>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        General Overview
+                    </mat-expansion-panel-header>
+                    <p>{{project.gen_overview}}</p>
+                </mat-expansion-panel>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        Technical Summary
+                    </mat-expansion-panel-header>
+                    <p>{{project.tech_overview}}</p>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <mat-list>
+                <mat-list-item *ngFor="let tech of project.tech_used">
+                    <a href="{{tech.source}}" target="_blank">
+                        <img matListAvatar src="../../assets/projects/tech-icons/{{tech.iconFile}}" alt="">
+                        <span>{{tech.name}}</span>
+                    </a>
+                </mat-list-item>
+            </mat-list>
+        </mat-card-content>
+        <mat-card-actions>
+            <a href="{{project.gh_link}}" target="_blank">
+                <img src="../../assets/github-mark/GitHub-Mark-32px.png" alt="GitHub icon">
+            </a>
+            <a href="{{project.site_link}}" target="_blank" id="site-link">
+                See it in action
+            </a>
+        </mat-card-actions>
+    </mat-card>
+    <!-- <ul>
+        <li *ngFor="let project of projects">
+            <p>{{project.id}}</p>
+            <h2>{{project.title}}</h2>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        General Overview
+                    </mat-expansion-panel-header>
+                    <p>{{project.gen_overview}}</p>
+                </mat-expansion-panel>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        Technical Summary
+                    </mat-expansion-panel-header>
+                    <p>{{project.tech_overview}}</p>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <mat-list>
+                <mat-list-item *ngFor="let tech of project.tech_used">
+                    <a href="{{tech.source}}">
+                        <img matListAvatar src="../../assets/projects/tech-icons/{{tech.iconFile}}" alt="">
+                    </a>
+                    <p>{{tech.name}}</p>
+                </mat-list-item>
+            </mat-list>
+            <p><a href="{{project.gh_link}}" target="_blank">GitHub</a></p>
+            <p><a href="{{project.site_link}}" target="_blank">Site</a></p>
+        </li>
+    </ul> -->
+</div>

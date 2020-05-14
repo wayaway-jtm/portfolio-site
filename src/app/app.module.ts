@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatMenuModule } from "@angular/material/menu";
 import { MatIconModule } from "@angular/material/icon";
+import { MatExpansionModule } from "@angular/material/expansion";
+import { MatListModule } from "@angular/material/list";
+import { MatCardModule } from "@angular/material/card";
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +15,7 @@ import { AboutRouteComponent } from './about-route/about-route.component';
 import { ContactRouteComponent } from './contact-route/contact-route.component';
 import { ProjectsRouteComponent } from './projects-route/projects-route.component';
 import { NotFoundRouteComponent } from './not-found-route/not-found-route.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +24,19 @@ import { NotFoundRouteComponent } from './not-found-route/not-found-route.compon
     AboutRouteComponent,
     ContactRouteComponent,
     ProjectsRouteComponent,
-    NotFoundRouteComponent
+    NotFoundRouteComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
+    MatExpansionModule,
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
