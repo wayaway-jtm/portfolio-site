@@ -1,0 +1,87 @@
+[
+    {
+        "id": "lead-free-gr",
+        "title": "Lead-free Grand Rapids",
+        "genOverview": "The final project of my Grand Circus bootcamp, this was a collaboration with Grand Rapids city officials. Using data they provided, we were able to create a map of potential lead poisoning risks in Grand Rapids. In addition to a heatmap of lead risks, this website also provides some education on lead poisoning as well as links to official city resources.",
+        "techOverview": "",
+        "techUsed": [
+            {
+                "name": "Angular 9",
+                "source": "https://angular.io/",
+                "iconFile": "angular.svg"
+            },
+            {
+                "name": "Google Maps API",
+                "source": "https://cloud.google.com/maps-platform/",
+                "iconFile": "google-maps-icon.svg"
+            },
+            {
+                "name": "City of Grand Rapids Data",
+                "source": "https://data.grandrapidsmi.gov/",
+                "iconFile": "gr-city-logo.png"
+            },
+            {
+                "name": "Angular Material",
+                "source": "https://material.angular.io/",
+                "iconFile": "angular-material.svg"
+            }
+        ],
+        "githubURL": "https://github.com/Spencer-T-Morris/Lead",
+        "siteURL": "https://lead-free-grandrapids.netlify.app/"
+    },
+    {
+        "id": "urkernel",
+        "title": "Urkernel",
+        "genOverview": "The final project of my Grand Circus bootcamp, this was a collaboration with Grand Rapids city officials. Using data they provided, we were able to create a map of potential lead poisoning risks in Grand Rapids. In addition to a heatmap of lead risks, this website also provides some education on lead poisoning as well as links to official city resources.",
+        "techOverview": "",
+        "techUsed": [
+            {
+                "name": "Angular 8",
+                "source": "https://angular.io/",
+                "iconFile": "angular.svg"
+            },
+            {
+                "name": "The Movie Database",
+                "source": "https://www.themoviedb.org/",
+                "iconFile": "tmdb.svg"
+            },
+            {
+                "name": "Angular Material",
+                "source": "https://material.angular.io/",
+                "iconFile": "angular-material.svg"
+            },
+            {
+                "name": "Angular Forms",
+                "source": "https://angular.io/api/forms",
+                "iconFile": "angular-forms.svg"
+            }
+        ],
+        "githubURL": "https://github.com/wayaway-jtm/angular-movie-project",
+        "siteURL": "https://urkernel.netlify.app/"
+    },
+    {
+        "id": "random-pet-display",
+        "title": "Random Pet Display",
+        "genOverview": "A small site I made because sometimes you just want to see cute animals.",
+        "techOverview": "I used some Javascript (ES6) to call a couple of APIs. Display and formatting were HTML 5 & CSS",
+        "techUsed": [
+            {
+                "name": "Javascript",
+                "source": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+                "iconFile": "javaScript-logo-64px.png"
+            },
+            {
+                "name": "random.cat (API)",
+                "source": "https://aws.random.cat/",
+                "iconFile": "random.cat-logo.png"
+            },
+            {
+                "name": "random.dog (API)",
+                "source": "https://random.dog/",
+                "iconFile": "DogIcon.png"
+            }
+        ],
+        "githubURL": "https://github.com/wayaway-jtm/RandomPetDisplay",
+        "siteURL": "https://wayaway-jtm.github.io/RandomPetDisplay/"
+    }
+]
